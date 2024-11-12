@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E3D18B12BF7C54D00BC944B /* UnsplashResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3D18B02BF7C54D00BC944B /* UnsplashResult.swift */; };
+		1E6B85392BF8E02C0068F71E /* FileCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B85382BF8E02C0068F71E /* FileCache.swift */; };
+		1E71DDC92BFCE4C700A5A377 /* MockNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E71DDC82BFCE4C700A5A377 /* MockNetworking.swift */; };
 		1EA1F9482BF5322900A6669B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA1F9472BF5322900A6669B /* AppDelegate.swift */; };
 		1EA1F94A2BF5322900A6669B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA1F9492BF5322900A6669B /* SceneDelegate.swift */; };
 		1EA1F94C2BF5322900A6669B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA1F94B2BF5322900A6669B /* ViewController.swift */; };
@@ -15,7 +18,9 @@
 		1EA1F9542BF5322A00A6669B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1EA1F9532BF5322A00A6669B /* Base */; };
 		1EA1F95F2BF5322A00A6669B /* DacadooTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA1F95E2BF5322A00A6669B /* DacadooTestTests.swift */; };
 		1EA1F9692BF5322A00A6669B /* DacadooTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA1F9682BF5322A00A6669B /* DacadooTestUITests.swift */; };
-		1EA1F96B2BF5322A00A6669B /* DacadooTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA1F96A2BF5322A00A6669B /* DacadooTestUITestsLaunchTests.swift */; };
+		1EA494E52BF6448800E71C5E /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA494E42BF6448800E71C5E /* ImageViewController.swift */; };
+		1EA7D8A22BF6724C00837749 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA7D8A12BF6724C00837749 /* Networking.swift */; };
+		1EF538D72BF88BFF00474192 /* UnsplashJSONResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF538D62BF88BFF00474192 /* UnsplashJSONResults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E3D18B02BF7C54D00BC944B /* UnsplashResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashResult.swift; sourceTree = "<group>"; };
+		1E6B85382BF8E02C0068F71E /* FileCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileCache.swift; sourceTree = "<group>"; };
+		1E71DDC82BFCE4C700A5A377 /* MockNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworking.swift; sourceTree = "<group>"; };
 		1EA1F9442BF5322900A6669B /* DacadooTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DacadooTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EA1F9472BF5322900A6669B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EA1F9492BF5322900A6669B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +56,9 @@
 		1EA1F95E2BF5322A00A6669B /* DacadooTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DacadooTestTests.swift; sourceTree = "<group>"; };
 		1EA1F9642BF5322A00A6669B /* DacadooTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DacadooTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EA1F9682BF5322A00A6669B /* DacadooTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DacadooTestUITests.swift; sourceTree = "<group>"; };
-		1EA1F96A2BF5322A00A6669B /* DacadooTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DacadooTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1EA494E42BF6448800E71C5E /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		1EA7D8A12BF6724C00837749 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		1EF538D62BF88BFF00474192 /* UnsplashJSONResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashJSONResults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,11 @@
 				1EA1F9472BF5322900A6669B /* AppDelegate.swift */,
 				1EA1F9492BF5322900A6669B /* SceneDelegate.swift */,
 				1EA1F94B2BF5322900A6669B /* ViewController.swift */,
+				1EA494E42BF6448800E71C5E /* ImageViewController.swift */,
+				1EA7D8A12BF6724C00837749 /* Networking.swift */,
+				1E3D18B02BF7C54D00BC944B /* UnsplashResult.swift */,
+				1EF538D62BF88BFF00474192 /* UnsplashJSONResults.swift */,
+				1E6B85382BF8E02C0068F71E /* FileCache.swift */,
 				1EA1F94D2BF5322900A6669B /* Main.storyboard */,
 				1EA1F9502BF5322A00A6669B /* Assets.xcassets */,
 				1EA1F9522BF5322A00A6669B /* LaunchScreen.storyboard */,
@@ -114,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				1EA1F95E2BF5322A00A6669B /* DacadooTestTests.swift */,
+				1E71DDC82BFCE4C700A5A377 /* MockNetworking.swift */,
 			);
 			path = DacadooTestTests;
 			sourceTree = "<group>";
@@ -122,7 +138,6 @@
 			isa = PBXGroup;
 			children = (
 				1EA1F9682BF5322A00A6669B /* DacadooTestUITests.swift */,
-				1EA1F96A2BF5322A00A6669B /* DacadooTestUITestsLaunchTests.swift */,
 			);
 			path = DacadooTestUITests;
 			sourceTree = "<group>";
@@ -258,8 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EF538D72BF88BFF00474192 /* UnsplashJSONResults.swift in Sources */,
+				1EA7D8A22BF6724C00837749 /* Networking.swift in Sources */,
+				1E6B85392BF8E02C0068F71E /* FileCache.swift in Sources */,
 				1EA1F94C2BF5322900A6669B /* ViewController.swift in Sources */,
+				1E3D18B12BF7C54D00BC944B /* UnsplashResult.swift in Sources */,
 				1EA1F9482BF5322900A6669B /* AppDelegate.swift in Sources */,
+				1EA494E52BF6448800E71C5E /* ImageViewController.swift in Sources */,
 				1EA1F94A2BF5322900A6669B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EA1F95F2BF5322A00A6669B /* DacadooTestTests.swift in Sources */,
+				1E71DDC92BFCE4C700A5A377 /* MockNetworking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +297,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EA1F96B2BF5322A00A6669B /* DacadooTestUITestsLaunchTests.swift in Sources */,
 				1EA1F9692BF5322A00A6669B /* DacadooTestUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,8 +468,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -476,8 +496,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -500,7 +520,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5A4JA438MW;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.void.nl.DacadooTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -520,7 +540,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5A4JA438MW;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.void.nl.DacadooTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -539,6 +559,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5A4JA438MW;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.void.nl.DacadooTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -557,6 +578,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5A4JA438MW;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.void.nl.DacadooTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
